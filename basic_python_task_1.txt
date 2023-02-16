@@ -1,0 +1,144 @@
+Hello,
+
+1) Write a Python script for below List Functions. 1) append 2) extend 3) insert 4) remove 5) pop
+2) Write a Python script for below List Functions. 1) clear 2) index 3) count 4) sort 5) reverse 6) copy
+3)  Write a Python script to slice a List.
+4) Write a Python program to generate and print a list of first and last 5 elements where the values are square of numbers between 1 and 30 (both included)
+5) Write a Python program to create a tuple and impliment all the tuple methods.
+6) Write a Python script to slice a tuple.
+7) Write a Python program to sum all the items and multiplies all the items in a list.
+8) )Write a Python program to get the largest and smallest number from a list.
+9) Write a Python program to generate all sublists of a list
+1. Write a Python program to sum all the items in a list. Go to the editor
+Click me to see the sample solution
+
+2. Write a Python program to multiply all the items in a list. Go to the editor
+Click me to see the sample solution
+
+3. Write a Python program to get the largest number from a list. Go to the editor
+Click me to see the sample solution
+
+4. Write a Python program to get the smallest number from a list. Go to the editor
+Click me to see the sample solution
+
+5. Write a Python program to count the number of strings where the string length is 2 or more and the first and last character are same from a given list of strings. Go to the editor
+Sample List : ['abc', 'xyz', 'aba', '1221']
+Expected Result : 2
+Click me to see the sample solution
+
+6. Write a Python program to get a list, sorted in increasing order by the last element in each tuple from a given list of non-empty tuples. Go to the editor
+Sample List : [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+Expected Result : [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
+Click me to see the sample solution
+
+7. Write a Python program to remove duplicates from a list. Go to the editor
+Click me to see the sample solution
+
+8. Write a Python program to check a list is empty or not. Go to the editor
+Click me to see the sample solution
+
+9. Write a Python program to clone or copy a list. Go to the editor
+Click me to see the sample solution
+
+10. Write a Python program to find the list of words that are longer than n from a given list of words. Go to the editor
+Click me to see the sample solution
+
+11. Write a Python function that takes two lists and returns True if they have at least one common member. Go to the editor
+Click me to see the sample solution
+
+12. Write a Python program to print a specified list after removing the 0th, 4th and 5th elements. Go to the editor
+Sample List : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+Expected Output : ['Green', 'White', 'Black']
+Click me to see the sample solution
+
+13. Write a Python program to generate a 3*4*6 3D array whose each element is *. Go to the editor
+Click me to see the sample solution
+
+14. Write a Python program to print the numbers of a specified list after removing even numbers from it. Go to the editor
+Click me to see the sample solution
+
+15. Write a Python program to shuffle and print a specified list. Go to the editor
+Click me to see the sample solution
+
+16. Write a Python program to generate and print a list of first and last 5 elements where the values are square of numbers between 1 and 30 (both included). Go to the editor
+Click me to see the sample solution
+
+17. Write a Python program to generate and print a list except for the first 5 elements, where the values are square of numbers between 1 and 30 (both included). Go to the editor
+Click me to see the sample solution
+
+18. Write a Python program to generate all permutations of a list in Python. Go to the editor
+Click me to see the sample solution
+
+19. Write a Python program to get the difference between the two lists. Go to the editor
+Click me to see the sample solution
+
+20. Write a Python program access the index of a list. Go to the editor
+Click me to see the sample solution
+
+21. Write a Python program to convert a list of characters into a string. Go to the editor
+Click me to see the sample solution
+
+22. Write a Python program to find the index of an item in a specified list. Go to the editor
+Click me to see the sample solution
+
+23. Write a Python program to flatten a shallow list. Go to the editor
+Click me to see the sample solution
+
+24. Write a Python program to append a list to the second list. Go to the editor
+Click me to see the sample solution
+
+25. Write a Python program to select an item randomly from a list. Go to the editor
+Click me to see the sample solution
+
+26. Write a python program to check whether two lists are circularly identical. Go to the editor
+Click me to see the sample solution
+
+27. Write a Python program to find the second smallest number in a list. Go to the editor
+Click me to see the sample solution
+
+28. Write a Python program to find the second largest number in a list. Go to the editor
+Click me to see the sample solution
+
+29. Write a Python program to get unique values from a list. Go to the editor
+Click me to see the sample solution
+
+30. Write a Python program to get the frequency of the elements in a list. Go to the editor
+Click me to see the sample solution
+
+31. Write a Python program to count the number of elements in a list within a specified range. Go to the editor
+Click me to see the sample solution
+
+32. Write a Python program to check whether a list contains a sublist. Go to the editor
+Click me to see the sample solution
+
+33. Write a Python program to generate all sublists of a list. Go to the editor
+Click me to see the sample solution
+
+34. Write a Python program using Sieve of Eratosthenes method for computing primes upto a specified number. Go to the editor
+Note: In mathematics, the sieve of Eratosthenes, (Ancient Greek: κόσκινον Ἐρατοσθένους, kóskinon Eratosthénous) one of a number of prime number sieves, is a simple, ancient algorithm for finding all prime numbers up to any given limit.
+Click me to see the sample solution
+
+35. Write a Python program to create a list by concatenating a given list which range goes from 1 to n. Go to the editor
+Sample list : ['p', 'q']
+n =5
+Sample Output : ['p1', 'q1', 'p2', 'q2', 'p3', 'q3', 'p4', 'q4', 'p5', 'q5']
+Click me to see the sample solution
+
+36. Write a Python program to get variable unique identification number or string. Go to the editor
+Click me to see the sample solution
+
+37. Write a Python program to find common items from two lists. Go to the editor
+Click me to see the sample solution
+
+38. Write a Python program to change the position of every n-th value with the (n+1)th in a list. Go to the editor
+Sample list: [0,1,2,3,4,5]
+Expected Output: [1, 0, 3, 2, 5, 4]
+Click me to see the sample solution
+
+39. Write a Python program to convert a list of multiple integers into a single integer. Go to the editor
+Sample list: [11, 33, 50]
+Expected Output: 113350
+Click me to see the sample solution
+
+40. Write a Python program to split a list based on first character of word. Go to the editor
+Click me to see the sample solution
