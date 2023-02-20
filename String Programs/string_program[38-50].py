@@ -90,7 +90,9 @@ volume = 7854
 decimals = 2
 print("The area of the rectangle is {0:.{1}f}cm\u00b2".format(area, decimals))
 decimals = 3
-print("The volume of the cylinder is {0:.{1}f}cm\u00b3".format(volume, decimals))
+print(
+    "The volume of the cylinder is {0:.{1}f}cm\u00b3".format(volume, decimals)
+)
 
 
 """
@@ -146,7 +148,8 @@ print(lower_case("HITANSHI"))
 
 
 def swap(string):
-    result = string.replace(",", "%temp%").replace(".", ",").replace("%temp%", ".")
+    result = (string.replace(",", "%temp%").replace(".", ",").
+              replace("%temp%", "."))
     return result
 
 
