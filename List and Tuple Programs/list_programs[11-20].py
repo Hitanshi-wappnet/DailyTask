@@ -37,13 +37,14 @@ print(array)
 # 14.Write a Python program to print the numbers of a specified list after
 #  removing even numbers from it.
 def remove_even_numbers(list):
+    list1 = []
     for number in list:
-        if number % 2 == 0:
-            list.remove(number)
-    return list
+        if number % 2 == 1:
+            list1.append(number)
+    return list1
 
 
-print(remove_even_numbers([2, 3, 4, 5, 9, 6]))
+print(remove_even_numbers([2, 3, 4, 5, 9, 6, 44, 66]))
 
 
 # 15.Write a Python program to shuffle and print a specified list.
