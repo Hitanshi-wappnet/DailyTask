@@ -1,4 +1,6 @@
 from collections import Counter
+import json
+from pprint import pprint
 
 """
 31.Write a Python program to get the key, value and item in a dictionary.
@@ -91,3 +93,60 @@ student_details = [
     {"id": 3, "subject": "math", "V": 75, "VI": 86},
 ]
 print(value_with_avg(student_details))
+
+
+'''
+38.Write a Python program to match key values in two dictionaries.
+'''
+
+
+def match_keys(dic1, dic2):
+    for key1, value1 in dic1.items():
+        for key2, value2 in dic2.items():
+            if key1 == key2 and value1 == value2:
+                print(key1, ":", value1, "is present in both dictionaries")
+
+
+dic1 = {'key1': 1, 'key2': 3, 'key3': 2}
+dic2 = {'key1': 1, 'key2': 2}
+match_keys(dic1, dic2)
+
+
+'''
+39.Write a Python program to store a given dictionary in a json file.
+'''
+
+
+def dictionary_to_json():
+    dictionary = {
+                "id": "",
+                "name": "sunil",
+                "department": "HR"
+    }
+    # Serializing json
+    json_object = json.dumps(dictionary, indent=4)
+    print(json_object)
+
+
+dictionary_to_json()
+
+
+'''
+40.Write a Python program to create a dictionary of keys x, y, and z
+where each key has as value a list from 11-20, 21-30, and 31-40 respectively.
+Access the fifth value of each key from the dictionary.
+'''
+
+
+def create_dic():
+    dict_nums = dict(x=list(range(11, 20)), y=list(range(21, 30)),
+                     z=list(range(31, 40)))
+    pprint(dict_nums)
+    print(dict_nums["x"][4])
+    print(dict_nums["y"][4])
+    print(dict_nums["z"][4])
+    for k, v in dict_nums.items():
+        print(k, "has value", v)
+
+
+create_dic()
